@@ -11,14 +11,13 @@ GAME RULES:
 
 var scores, roundScore, activePlayer;
 
-scores = [0,0];
+scores = [0, 0]; // test comment 
 roundScore = 0;
 activePlayer = 1;
 
 dice = Math.floor(Math.random() * 6) + 1
 
 // document.querySelector('#current-' + activePlayer).textContent = dice
-document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice '</em>'
+document.querySelector('#current-' + activePlayer).innerHTML + '<em>' + dice + '</em>';
 
-
-
+console.log(test);
